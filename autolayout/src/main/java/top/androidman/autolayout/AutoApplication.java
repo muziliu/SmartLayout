@@ -20,6 +20,7 @@ public abstract class AutoApplication extends Application implements Application
     @Override
     public void onCreate() {
         super.onCreate();
+        //监听所有activity的生命周期 每个activity的生命周期 都会回调
         registerActivityLifecycleCallbacks(this);
     }
 
