@@ -1,13 +1,13 @@
 ### 具体的原理请看这里
 
-[点我，点我](http://androidman.top/2018/07/04/android-autolayout/)
+[点我，点我](https://github.com/muziliu/SmartLayout)
 
 快速开始：
 
 ### 1 添加依赖
 
 ``` java
-compile 'top.androidman.autolayout:autolayout:1.0.0'
+ implementation 'com.github.muziliu:SmartLayout:v1.2'
 ```
 
 ### 2 初始化并开始使用
